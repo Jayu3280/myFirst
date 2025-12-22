@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>myFirst.file1</StartupObject>
+    <StartupObject>myFirst.file_stream</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
     <Compile Include="Exception_ex1.cs" />
     <Compile Include="Exception_ex2cs.cs" />
     <Compile Include="file1.cs" />
+    <Compile Include="file_stream.cs" />
     <Compile Include="function_types.cs" />
     <Compile Include="generic_dicitionayList_ex1.cs" />
     <Compile Include="generic_list_ex1.cs" />
