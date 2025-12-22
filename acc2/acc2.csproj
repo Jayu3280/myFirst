@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3C56DD12-9020-413D-AFB5-D5BF6E18465A}</ProjectGuid>
+    <ProjectGuid>{6721D034-FF42-4450-852A-F1AC840EDFF3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>myFirst</RootNamespace>
-    <AssemblyName>myFirst</AssemblyName>
+    <RootNamespace>acc2</RootNamespace>
+    <AssemblyName>acc2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>myFirst.file1</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,48 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="abstraction_example1.cs" />
-    <Compile Include="abstraction_example2.cs" />
-    <Compile Include="abstraction_shopping_example.cs" />
-    <Compile Include="abstraction__salary_example.cs" />
-    <Compile Include="array.cs" />
-    <Compile Include="constructor_overloding.cs" />
-    <Compile Include="constructor_type.cs" />
-    <Compile Include="datatype.cs" />
-    <Compile Include="Encapsulation_ex2.cs" />
-    <Compile Include="Encapsulation_ex3.cs" />
-    <Compile Include="Encapsulation_example1.cs" />
-    <Compile Include="Exception_ex1.cs" />
-    <Compile Include="Exception_ex2cs.cs" />
-    <Compile Include="file1.cs" />
-    <Compile Include="function_types.cs" />
-    <Compile Include="generic_dicitionayList_ex1.cs" />
-    <Compile Include="generic_list_ex1.cs" />
-    <Compile Include="generic_mini_project12.cs" />
-    <Compile Include="generic_stack_ex1.cs" />
-    <Compile Include="hash_set_ex.cs" />
-    <Compile Include="if_else.cs" />
-    <Compile Include="inheritance_multilevels.cs" />
-    <Compile Include="inheritance_single.cs" />
-    <Compile Include="interface_example_1.cs" />
-    <Compile Include="interface_example_2.cs" />
-    <Compile Include="Linklist_ex.cs" />
-    <Compile Include="loops.cs" />
-    <Compile Include="method_function.cs" />
-    <Compile Include="method_overloding.cs" />
-    <Compile Include="method_overriding.cs" />
-    <Compile Include="multiple_interface1.cs" />
-    <Compile Include="multiple_interface2.cs" />
-    <Compile Include="non_generic_hashtable.cs" />
-    <Compile Include="non_generic_sortedList.cs" />
-    <Compile Include="operators_user_input.cs" />
-    <Compile Include="operator_overloding.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sorted_list_ex.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\acc11\acc11.csproj">
+      <Project>{b424e1a0-5ddb-4bfa-adac-a8df2f944a57}</Project>
+      <Name>acc11</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

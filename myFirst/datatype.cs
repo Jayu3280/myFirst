@@ -23,6 +23,13 @@ namespace myFirst
 
             object anything = 11;
             Console.WriteLine("name is " + name);
+            Console.WriteLine("Age: " + age);
+            Console.WriteLine("Height: " + height);
+            Console.WriteLine("Weight: " + weight);
+            Console.WriteLine("Decimal value: " + c);
+            Console.WriteLine("Grade: " + grade);
+            Console.WriteLine("Is Student: " + isStudent);
+            Console.WriteLine("Anything object contains: " + anything);
 
 
 
