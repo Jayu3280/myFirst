@@ -57,7 +57,7 @@ namespace myFirst
             //    Console.WriteLine(content);
             //}
 
-            string path = @"C:\streamwriter\onetofive.txt";
+            //string path = @"C:\streamwriter\onetofive.txt";
 
             //Console.WriteLine("Enter Your Message");
             //string msg = Console.ReadLine();
@@ -68,14 +68,37 @@ namespace myFirst
             //}
             //Console.WriteLine("User Input saved");
 
-            using(StreamWriter sw = new StreamWriter(path))
+            //using(StreamWriter sw = new StreamWriter(path))
+            //{
+            //    for(int i = 1;i <=5;i++)
+            //    {
+            //        sw.WriteLine("Number + i");
+            //    }
+            //}
+
+            string path = @"C:\streamwriter\studentrecord.txt";
+
+            Console.WriteLine("Enter Student Name");
+            string name = Console.ReadLine();
+            Console.WriteLine("Enter Student Id");
+            string id = Console.ReadLine();
+            Console.WriteLine("Enter Student Mobile Number");
+            string mobile = Console.ReadLine();
+            Console.WriteLine("Enter Student Address");
+            string address = Console.ReadLine();
+
+           string msg = Console.ReadLine();
+
+            using (StreamWriter sw = new StreamWriter(path, true))
             {
-                for(int i = 1;i <=5;i++)
-                {
-                    sw.WriteLine("Number + i");
-                }
+                sw.WriteLine("Student Name: " + name);
+                sw.WriteLine("Student Id: " + id);
+                sw.WriteLine("Mobile Number: " + mobile);
+                sw.WriteLine("Address: " + address);
+            }
+                Console.WriteLine("Saved Student Record ");
             }
 
+         
         }
-    }
 }
