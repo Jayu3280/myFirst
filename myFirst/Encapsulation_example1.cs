@@ -82,9 +82,9 @@ namespace Learning_C_Sharp
         static void Main(string[] args)
         {
             Person12 p = new Person12();
-            p.setName("Om");
+            p.setName("Jayant");
             p.getName();
-            p.setAge(53);
+            p.setAge(22);
             p.getAge();
 
             //---------------------

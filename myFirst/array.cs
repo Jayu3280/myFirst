@@ -101,7 +101,7 @@ namespace myFirst
 
             //arr[0] = new[] { 12, 24, 56, 89 };
             //arr[1] = new[] { 13, 21, 76, 89, 76, 23 };
-            //arr[2] = new[] { 12, 24, 46,  };
+            //arr[2] = new[] { 12, 24, 46, };
 
 
             //Console.WriteLine(arr[1][2]);

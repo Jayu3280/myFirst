@@ -18,16 +18,16 @@ namespace myFirst
             SortedList sl = new SortedList();
 
             sl.Add(3, "Jayant");
-            sl.Add(5, "Ashwini");
+            sl.Add(5, "Ram");
             sl.Add(4, "Gajanan");
             sl.Add(1, "Divyesh");
-            Console.WriteLine("=======Sorted List========");
+            Console.WriteLine("=======Sorted List===========");
             DisplayList(sl);
             Console.WriteLine("Value of key" + sl[3]);
 
             Console.WriteLine("Value at index" + sl.GetByIndex(1));
 
-            sl[2] = "Ashwini";
+            sl[2] = "Ram";
             DisplayList(sl);
 
             sl.Remove(4);

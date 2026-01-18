@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>myFirst.lambda_expression</StartupObject>
+    <StartupObject>myFirst.delgate_ex</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,11 +51,19 @@
     <Compile Include="abstraction_shopping_example.cs" />
     <Compile Include="abstraction__salary_example.cs" />
     <Compile Include="array.cs" />
+    <Compile Include="BankAccount_CO.cs" />
+    <Compile Include="car_ex1.cs" />
+    <Compile Include="constructor_copy.cs" />
     <Compile Include="constructor_overloding.cs" />
-    <Compile Include="constructor_type.cs" />
+    <Compile Include="constructor_private.cs" />
+    <Compile Include="constructor_static.cs" />
+    <Compile Include="counstrctor_parameterized.cs" />
     <Compile Include="datatype.cs" />
+    <Compile Include="default_constructor.cs" />
+    <Compile Include="delgate_ex.cs" />
     <Compile Include="Encapsulation_ex2.cs" />
     <Compile Include="Encapsulation_ex3.cs" />
+    <Compile Include="Encapsulation_ex4.cs" />
     <Compile Include="Encapsulation_example1.cs" />
     <Compile Include="Exception_ex1.cs" />
     <Compile Include="Exception_ex2cs.cs" />
@@ -78,9 +86,15 @@
     <Compile Include="loops.cs" />
     <Compile Include="method_function.cs" />
     <Compile Include="method_overloding.cs" />
+    <Compile Include="method_overloding_ex2.cs" />
+    <Compile Include="method_overloding_ex3.cs" />
     <Compile Include="method_overriding.cs" />
+    <Compile Include="method_overriding_ex2cs.cs" />
     <Compile Include="multiple_interface1.cs" />
     <Compile Include="multiple_interface2.cs" />
+    <Compile Include="multithreading_ex1.cs" />
+    <Compile Include="multithreading_ex2.cs" />
+    <Compile Include="multithreading_ex3.cs" />
     <Compile Include="non_generic_hashtable.cs" />
     <Compile Include="non_generic_sortedList.cs" />
     <Compile Include="operators_user_input.cs" />
@@ -88,6 +102,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sorted_list_ex.cs" />
+    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

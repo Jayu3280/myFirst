@@ -44,15 +44,15 @@ namespace myFirst
             //}
 
             //Nested if else
-            //Console.WriteLine("Enter username(email id)");
+            //        Console.WriteLine("Enter username(email id)");
             //string uname = Console.ReadLine();
 
-            //if(uname == "patiljayant3280@gmail.com")
+            //if (uname == "patiljayant3280@gmail.com")
             //{
             //    Console.WriteLine("Enter your password");
             //    string password = Console.ReadLine();
 
-            //    if(password == "1234")
+            //    if (password == "1234")
             //    {
             //        Console.WriteLine("Login Successfully");
             //    }
@@ -86,8 +86,8 @@ namespace myFirst
             //        break;
             //    case 7:
             //        Console.WriteLine("sunday");
-            //            break;
-            //     default:
+            //        break;
+            //    default:
             //        Console.WriteLine("Invalid Week Number");
             //        break;
             //}

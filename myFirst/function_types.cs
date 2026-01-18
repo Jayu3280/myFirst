@@ -263,19 +263,7 @@ namespace myFirst
             Console.WriteLine($"Final Payable Amount: ${finalAmount}");
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+   }
 
     
 

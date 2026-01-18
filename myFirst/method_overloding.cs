@@ -64,11 +64,13 @@ namespace myFirst
 
             // Example Addition call
             p1.Addition(63.4, 65);
+            p1.Addition(45, 56.25);
 
             // Room bookings
             p1.BookRoom("1BHK");                        // method 1
             p1.BookRoom("1BHK", 5);                     // method 2
             p1.BookRoom("1BHK", 5, true);              // method 3 (extra bed)
+
 
             Console.ReadLine();
         }

@@ -18,8 +18,16 @@ namespace myFirst
             char grade = 'A';
             bool isStudent = true;
 
-            //Reference Type
-            string name = "Jayant";
+            // Refference Type
+            string name = " Jayant Patil";
+           // object
+               // array
+
+            //Nullable Type
+            int? nullable = null; //nullable integer (Null value Hold)
+
+
+
 
             object anything = 11;
             Console.WriteLine("name is " + name);
